@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lightPurple: #e5cff7;
+  --darkPurple: #5b0888;
+  --mediumPurple: #713abe;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link:hover {
+  color: var(--mediumPurple);
+}
+
+.link-seperator {
+  background-color: #713abe;
+  box-shadow: 2px 2px 4px rgba(113, 58, 190, 0.3);
+  width: 1px;
+}
+.navbar-border {
+  border-bottom: 1px solid #713abe;
+  box-shadow: 4px 4px 8px #e5cff7;
+}
+
+.sidebar-bg {
+  background-color: #27282a;
+  width: 220px;
+}
+
+.sidebar-links {
+  color: white;
+  padding: 10px;
+}
+
+.sidebar-links:hover {
+  color: #713abe;
+}
+.sidebar-btn-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.sidebar-highestP-box {
+  background-color: #e5cff7;
+  height: 190px;
+  width: 190px;
+  margin-top: 70%;
+  border-radius: 15px;
+}
+
+.sidebar-hr {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

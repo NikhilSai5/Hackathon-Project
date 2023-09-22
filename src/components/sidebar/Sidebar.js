@@ -1,20 +1,32 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import SidebarGraph from "../graphs/Air/SidebarGraph";
 
 const Sidebar = () => {
   return (
     <>
       <div className="w-1/4 h-screen sidebar-bg non-scrollable ">
         <div className="sidebar-btn-container">
-          <button className="text-left sidebar-links">Max Pollutant</button>
+          <NavLink className="text-left sidebar-links" to={"#"}>
+            Max Pollutant
+          </NavLink>
           <hr className="sidebar-hr" />
-          <button className="text-left sidebar-links">Min Pollutant</button>
+          <NavLink className="text-left sidebar-links" to={"#"}>
+            Min Pollutant
+          </NavLink>
           <hr className="sidebar-hr" />
-          <button className="text-left sidebar-links">Average Pollutant</button>
+          <NavLink className="text-left sidebar-links" to={"#"}>
+            Average Pollutant
+          </NavLink>
           <hr className="sidebar-hr" />
-          <button className="text-left sidebar-links">Yearly</button>
+          <NavLink className="text-left sidebar-links" to={"#"}>
+            Yearly
+          </NavLink>
         </div>
-        <div className="flex justify-center items-start h-screen">
-          <div className="sidebar-highestP-box"></div>
+        <div className="flex justify-center items-start h-screen sidebar-h">
+          <div className="sidebar-highestP-box">
+            <SidebarGraph />
+          </div>
         </div>
       </div>
     </>

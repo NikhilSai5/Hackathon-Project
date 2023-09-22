@@ -4,12 +4,12 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-white border-gray-200 navbar-border">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+      <nav className="bg-white navbar-border navbar-padding">
+        <div className=" flex flex-wrap items-center justify-between  p-4  ">
           <NavLink to="/" className="flex items-center">
             <img src="last.jpeg" className="h-12 mr-5" alt="logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap">
-              Udyan Sati
+              Udyan Sathi
             </span>
           </NavLink>
 
@@ -26,12 +26,12 @@ const Navbar = () => {
               </li>
               <li className="link-seperator"></li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/water-quality"
                   className="lock py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 nav-link "
                 >
                   Water Quality
-                </a>
+                </NavLink>
               </li>
               <li className="link-seperator"></li>
               <li>

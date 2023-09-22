@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = () => {
   return (
     <>
-      <div className="w-1/4 h-screen sidebar-bg ">
+      <div className="w-1/4 h-screen sidebar-bg non-scrollable ">
         <div className="sidebar-btn-container">
           <button className="text-left sidebar-links">Max Pollutant</button>
           <hr className="sidebar-hr" />

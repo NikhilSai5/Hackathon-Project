@@ -9,17 +9,17 @@
 }
 
 .nav-link:hover {
-  color: var(--mediumPurple);
+  color: #176b87;
 }
 
 .link-seperator {
-  background-color: #713abe;
+  background-color: #64ccc5;
   box-shadow: 2px 2px 4px rgba(113, 58, 190, 0.3);
   width: 1px;
 }
 .navbar-border {
-  border-bottom: 1px solid #713abe;
-  box-shadow: 4px 4px 8px #e5cff7;
+  border-bottom: 1px solid #053b50;
+  box-shadow: 2px 2px 6px #053b50;
 }
 
 .sidebar-bg {
@@ -33,7 +33,7 @@
 }
 
 .sidebar-links:hover {
-  color: #713abe;
+  color: #64ccc5;
 }
 .sidebar-btn-container {
   display: flex;
@@ -41,7 +41,7 @@
   margin: 20px;
 }
 .sidebar-highestP-box {
-  background-color: #e5cff7;
+  background-color: #eeeeee;
   height: 190px;
   width: 190px;
   margin-top: 70%;
@@ -51,4 +51,122 @@
 .sidebar-hr {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.non-scrollable {
+  height: 100%;
+  overflow: auto;
+}
+.home-graph1 {
+  height: 300px;
+  width: 300px;
+}
+
+.Graph-row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-graph1 {
+  height: 450px;
+  width: 600px;
+  background-color: #27282a;
+  /* margin: 30px; */
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.air-graph1 {
+  width: 800px;
+  height: 350px;
+  background-color: #27282a;
+  margin: 20px;
+}
+
+.air-graph-col1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.graph-align {
+  display: flex;
+  flex-direction: column;
+}
+
+.air-graph2 {
+  height: 350px;
+  width: 400px;
+  background-color: #053b50;
+  margin: 20px;
+  /* margin-bottom: 60px; */
+}
+
+.air-graph-col2 {
+  display: flex;
+}
+
+#graph1 {
+  width: 950px;
+}
+
+#graph4 {
+  width: 435px;
+}
+#graph2 {
+  width: 270px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-graph {
+  height: 300px;
+  width: 300px;
+  background-color: #27282a;
+  margin: 30px;
+}
+
+.home-col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#home-graph1 {
+  height: 374px;
+  width: 300px;
+}
+
+#home-graph2 {
+  height: 374px;
+  width: 300px;
+}
+
+#home-graph3 {
+  width: 789px;
+  height: 500px;
+}
+
+#home-graph4 {
+  width: 789px;
+  height: 250px;
+}
+
+#home-graph5 {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 0;
+}
+
+#home-graph6 {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 0;
+}
+
+#home-graph7 {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 0;
 }

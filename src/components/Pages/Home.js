@@ -14,6 +14,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
+      <div className="home-hero">
+        <div className="hero-bg"></div>
+        <img src="/logo-cir.png" className="logo-align"></img>
+        <h3 className="hero-text">Udyan Sathi</h3>
+      </div>
       <div className="home-container">
         <div className="home-col1">
           <div className="home-graph" id="home-graph1">

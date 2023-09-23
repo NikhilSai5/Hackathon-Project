@@ -156,7 +156,7 @@
 .home-col1 {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 #home-graph1 {
@@ -244,9 +244,9 @@
   border: 1px solid #27282a;
   border-radius: 12px;
 }
-/* 
-.navbar-padding {
-  margin-bottom: 20px;
+
+/* .navbar-padding {
+  background-color: #713abe;
 } */
 
 .air-graph1-img {
@@ -316,4 +316,46 @@
 
 .table-rad-l {
   border-radius: 0px 15px 0px 0px;
+}
+
+.home-hero {
+  background-color: #27282a;
+  height: 425px;
+  margin: 10px;
+  border-radius: 15px;
+
+  position: relative;
+}
+
+.hero-text {
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.hero-bg {
+  position: relative;
+  height: 100%;
+  background-image: url(../public/images/wallpaper.png);
+  background-size: cover;
+  filter: blur(2px);
+}
+.logo-align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  z-index: 2;
+  /* padding: 20px; */
+  text-align: center;
+  width: 150px;
+  border: 2px solid;
+  border-radius: 50%;
 }

@@ -294,3 +294,26 @@
   border: 1px solid #27282a;
   border-radius: 12px;
 }
+.home-table-styling {
+  border-collapse: collapse;
+  width: 100%;
+}
+.home-table-styling th,
+.home-table-styling td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.home-table-styling th {
+  background-color: #27282a;
+  color: white;
+}
+
+.table-rad-r {
+  border-radius: 15px 0px 0px 0px;
+}
+
+.table-rad-l {
+  border-radius: 0px 15px 0px 0px;
+}

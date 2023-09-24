@@ -9,6 +9,7 @@ import Graph6 from "../graphs/homeGraphs/Graph6";
 import Graph7 from "../graphs/homeGraphs/graph7";
 import Graph8 from "../graphs/homeGraphs/Graph8";
 import Graph10 from "../graphs/homeGraphs/Graph10";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,6 +19,24 @@ const Home = () => {
         <div className="hero-bg"></div>
         <img src="/logo-cir.png" className="logo-align"></img>
         <h3 className="hero-text">Udyan Sathi</h3>
+      </div>
+      <div className="home-box-container">
+        <div className="home-box" id="box1">
+          <h3 className="box-heading">122334</h3>
+          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+        </div>
+        <div className="home-box" id="box2">
+          <h3 className="box-heading">122334</h3>
+          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+        </div>
+        <div className="home-box" id="box3">
+          <h3 className="box-heading">122334</h3>
+          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+        </div>
+        <div className="home-box" id="box4">
+          <h3 className="box-heading">122334</h3>
+          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+        </div>
       </div>
       <div className="home-container">
         <div className="home-col1">
@@ -47,6 +66,38 @@ const Home = () => {
             <Graph6 />
           </div>
         </div>
+      </div>
+      {/* <hr className="secton-seperator"></hr> */}
+      <div className="home-bottom-box-continer">
+        <NavLink to={"/air-quality"}>
+          <div className="bottom-box" id="bottom1">
+            <div className="box-bg"></div>
+            <div className="inner-box">
+              <h3>Air Quality Index</h3>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink to={"/water-quality"}>
+          <div className="bottom-box" id="bottom2">
+            <div className="inner-box">
+              <h3>Water Quality Index</h3>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink to={"/analysis"}>
+          <div className="bottom-box" id="bottom3">
+            <div className="inner-box">
+              <h3>Analysis</h3>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink to={"/about"}>
+          <div className="bottom-box" id="bottom4">
+            <div className="inner-box">
+              <h3>About Us</h3>
+            </div>
+          </div>
+        </NavLink>
       </div>
     </>
   );

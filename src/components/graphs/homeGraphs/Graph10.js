@@ -4,7 +4,7 @@ const Graph10 = () => {
   const data = [
     {
       state: "GUJARAT",
-      avgAQI: 428,
+      avgAQI: 69.75,
       avgPM2_5: 49.0,
       avgPM10: 62,
       avgWQI: 242.65,
@@ -13,7 +13,7 @@ const Graph10 = () => {
     },
     {
       state: "KARNATAKA",
-      avgAQI: 435,
+      avgAQI: 64.96,
       avgPM2_5: 25.89,
       avgPM10: 46.5,
       avgWQI: 71.33,
@@ -22,7 +22,7 @@ const Graph10 = () => {
     },
     {
       state: "MAHARASTRA",
-      avgAQI: 400,
+      avgAQI: 65.23,
       avgPM2_5: 21.17,
       avgPM10: 39.89,
       avgWQI: 46.43,
@@ -31,7 +31,7 @@ const Graph10 = () => {
     },
     {
       state: "TAMILNADU",
-      avgAQI: 506,
+      avgAQI: 82.38,
       avgPM2_5: 32.17,
       avgPM10: 63.21,
       avgWQI: 39.64,
@@ -40,7 +40,7 @@ const Graph10 = () => {
     },
     {
       state: "TOTAL",
-      avgAQI: 506,
+      avgAQI: 72.2,
       avgPM2_5: 38.67,
       avgPM10: 61.77,
       avgWQI: 52.44,

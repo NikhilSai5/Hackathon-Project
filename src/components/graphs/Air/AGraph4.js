@@ -62,6 +62,7 @@ function AgeDonutChart() {
 
   return (
     <div>
+      <h2 style={{ textAlign: "center" }}>Top 6 polluted Cities Ozone Level</h2>
       <canvas ref={chartContainer} width="461" height="361"></canvas>
     </div>
   );

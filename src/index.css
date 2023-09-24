@@ -139,6 +139,7 @@
 .home-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .home-graph {
@@ -358,4 +359,101 @@
   width: 150px;
   border: 2px solid;
   border-radius: 50%;
+}
+.home-box-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-box {
+  height: 65px;
+  width: 364px;
+  /* background-color: #27282a; */
+  margin: 10px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#box1 {
+  background-color: #ffc13c;
+}
+
+#box2 {
+  background-color: #dea5ce;
+}
+
+#box3 {
+  background-color: #597cf4;
+}
+#box4 {
+  background-color: #4cd1a0;
+}
+.box-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.box-subtext {
+  font-size: 15px;
+}
+
+.home-bottom-box-continer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  background-color: #f4f4f4;
+  padding-bottom: 20px;
+}
+
+.bottom-box {
+  height: 250px;
+  width: 364px;
+  margin: 10px;
+  background-color: #27282a;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 3px #ccc;
+}
+.bottom-box:hover {
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#bottom1 {
+  background-image: url(../public/images/air-wall.jpg);
+  background-size: cover;
+  /* filter: blur(2px); */
+  position: relative;
+}
+
+#bottom2 {
+  background-image: url(../public//images/water-wall.jpg);
+  background-size: cover;
+  /* filter: blur(2px); */
+}
+
+#bottom3 {
+  background-image: url(../public//images/analysis-wall.jpg);
+  background-size: cover;
+  /* filter: blur(2px); */
+}
+
+#bottom4 {
+  background-image: url(../public//images/about-wall.jpg);
+  background-size: cover;
+  /* filter: blur(2px); */
+}
+
+.inner-box {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.secton-seperator {
+  border: 0.5px solid black;
 }

@@ -14,11 +14,21 @@ import MinW from "./components/Pages/water/Min";
 import AvgW from "./components/Pages/water/Avg";
 import YearlyW from "./components/Pages/water/Yearly";
 
+import Stats from "./components/Pages/Stats";
+import Analysis from "./components/Pages/Analysis";
+import Aboutus from "./components/Pages/AboutUs";
+
 function App() {
   return (
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/stats" element={<Stats />} />
+
+        <Route path="/analysis" element={<Analysis />} />
+
+        <Route path="/about" element={<Aboutus />} />
+
         <Route path="/air-quality" element={<AirQuality />} />
         <Route path="/water-quality" element={<WaterQuality />} />
         <Route path="/air-quality/max" element={<MaxA />} />

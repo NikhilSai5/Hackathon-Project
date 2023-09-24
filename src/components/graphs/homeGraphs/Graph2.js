@@ -6,13 +6,10 @@ function AgePieChart() {
   const chartInstance = useRef(null); // Reference to the chart instance
 
   useEffect(() => {
-    // Data
     const data = {
       labels: [
-        "Mumbai",
-        "Indore",
+        "Bhopal",
         "Hyderabad",
-        "Greater Noida",
         "Ahmedabad",
         "Bengaluru",
         "Chennai",
@@ -20,7 +17,7 @@ function AgePieChart() {
       ],
       datasets: [
         {
-          data: [35, 33, 32, 31, 30, 29, 28, 27],
+          data: [483, 435, 482, 435, 565, 588],
           backgroundColor: [
             "#f5c869",
             "#37a794",

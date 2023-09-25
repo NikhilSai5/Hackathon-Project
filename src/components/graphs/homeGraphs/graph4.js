@@ -6,14 +6,14 @@ const AGraph2 = () => {
     { medianAQI: 435, medianPM10: 46.5, city: "Bengaluru" },
     { medianAQI: 524, medianPM10: 52.62, city: "Bhopal" },
     { medianAQI: 565, medianPM10: 63.21, city: "Chennai" },
-    { medianAQI: 288, medianPM10: 84.83, city: "Delhi" },
-    { medianAQI: 435, medianPM10: 61.78, city: "Hyderabad" },
+    // { medianAQI: 288, medianPM10: 84.83, city: "Delhi" },
+    // { medianAQI: 435, medianPM10: 61.78, city: "Hyderabad" },
     // Missing city name, you can replace 'Unknown' with the actual city name.
   ];
 
   return (
     <div>
-      <table className="home-table-styling2">
+      <table className="home-table-styling">
         <thead>
           <tr>
             <th className="table-rad-r">Median AQI</th>

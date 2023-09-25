@@ -22,20 +22,20 @@ const Home = () => {
       </div>
       <div className="home-box-container">
         <div className="home-box" id="box1">
-          <h3 className="box-heading">122334</h3>
-          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+          <h3 className="box-heading">993</h3>
+          <p className="box-subtext">Total Stations </p>
         </div>
         <div className="home-box" id="box2">
-          <h3 className="box-heading">122334</h3>
-          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+          <h3 className="box-heading">260</h3>
+          <p className="box-subtext">Total Cities </p>
         </div>
         <div className="home-box" id="box3">
-          <h3 className="box-heading">122334</h3>
-          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+          <h3 className="box-heading">22</h3>
+          <p className="box-subtext">Total States </p>
         </div>
         <div className="home-box" id="box4">
-          <h3 className="box-heading">122334</h3>
-          <p className="box-subtext">asfgsdfsghsf dhsgh sghsfgh </p>
+          <h3 className="box-heading">154</h3>
+          <p className="box-subtext">AQI Greater Noida </p>
         </div>
       </div>
       <div className="home-container">
